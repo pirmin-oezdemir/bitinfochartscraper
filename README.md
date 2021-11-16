@@ -7,8 +7,8 @@ Two modified Versions:
 * BitinfoScraper - 41 Assets (full).ipynb
 * BitinfoScraper - 701 Assets (Twitter & GTrend).ipynb
 
-### bug: In very large datasets, order is wrong sometimes.
-E.g. Data begins from 2014, goes untill 2021. Then 2011 starts and goes untill 2014.
+### bug: In very large datasets, the order is wrong sometimes.
+e.g. data begins from 2014, goes until 2021. Then starts again in 2011, goes until 2014. 
 However, there seems to be only one "break" in the order of such datasets.
 
 ## instructions:
