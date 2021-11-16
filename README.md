@@ -1,7 +1,32 @@
+# modified Version
+
+original Version: Main Code.ipynb 
+
+Two modified Versions:
+
+* BitinfoScraper - 41 Assets (full).ipynb
+* BitinfoScraper - 701 Assets (Twitter & GTrend).ipynb
+
+### bug: In very large datasets, order is wrong sometimes.
+E.g. Data begins from 2014, goes untill 2021. Then 2011 starts and goes untill 2014.
+However, there seems to be only one "break" in the order of such datasets.
+
+## instructions:
+
+1. The attached notebook is designed to be run in google colab - it has all the relevant installs etc at the top of the script. (Indentation is not compatible with Jupyter Notebook. Also, Cloudflare will get triggered. You have to run it in Google Colab)
+
+
+
+---------------------------------------------------
+
+Original instructions from logic-language below:
+
+----------------------------------------------------
+
 # bitinfochartscraper
 Scrapes bitinfocharts data into csv files
 
-#######
+
 modified VERSION: Only Scrapes Twitter Data but for --> 701 Assets <--- . If existent, Google Trend Data gets pulled too.
 
 In very large datasets, order is wrong sometimes:
@@ -12,9 +37,6 @@ However, there seems to be only one "break" in the order of such datasets.
 
 Notebook has to be run in colab, otherwise cloudflare will block. Also, Indentation doesnt fit standard notebook.
 
-
-Original instructions from logic-language below:
-#######
 
 
 # Instructions
